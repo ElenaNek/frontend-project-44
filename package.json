@@ -5,6 +5,7 @@
   "description": "[![Actions Status](https://github.com/ElenaNek/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/ElenaNek/frontend-project-44/actions)",
   "main": "index.js",
   "bin": {
+    "brain-games": "bin/brain-games.js",
     "code": "bin/brain-games.js"
   },
   "scripts": {
