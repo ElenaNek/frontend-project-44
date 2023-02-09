@@ -6,14 +6,18 @@ const maxNumber = 80;
 const amountOfQuestions = 3;
 
 const calcGcd = (a, b) => {
+  let k;
+  k = a;
+  let j;
+  j = b;
   while (a !== b && a > 0 && b > 0) {
     if (a > b) {
-      a -= b;
+      k -= j;
     } else {
-      b -= a;
+      j -= k;
     }
   }
-  return a;
+  return k;
 };
 
 const playGcdGame = () => {
