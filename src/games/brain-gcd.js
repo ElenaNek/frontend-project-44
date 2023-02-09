@@ -10,8 +10,8 @@ const calcGcd = (a, b) => {
   k = a;
   let j;
   j = b;
-  while (a !== b && a > 0 && b > 0) {
-    if (a > b) {
+  while (k !== j && k > 0 && j > 0) {
+    if (k > j) {
       k -= j;
     } else {
       j -= k;
@@ -37,7 +37,7 @@ const playGcdGame = () => {
 
     const answer = readlineSync.question('Your answer: ');
 
-    if (answer === correctAnswer) {
+    if (answer === correctAnswer.toString()) {
       console.log('Correct!');
     } else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
