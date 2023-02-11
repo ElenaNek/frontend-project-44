@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
+import getRandomNumber from '../getRandomNumber.js';
 
-const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min) + min);
 const minNumber = 1;
 const maxNumber = 30;
 const amountOfQuestions = 3;

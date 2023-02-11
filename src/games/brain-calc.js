@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
+import getRandomNumber from '../getRandomNumber.js';
 
-const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min) + min);
 const operators = ['+', '-', '*'];
 const getRandomOperator = () => operators[getRandomNumber(0, operators.length - 1)];
 

@@ -7,3 +7,5 @@
 The record of brain-even game is [here](https://asciinema.org/connect/438c8e45-9533-429d-8a89-532b34d5cf16)
 
 The record of brain-calc game is [here](https://asciinema.org/a/nPhgVxugKNSp5NxvLOSb9CQpk)
+
+The record of rain-gcd game is [here](https://asciinema.org/a/yF14AvE7hCYLsTxoEnnV7EO2Z)
