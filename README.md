@@ -8,4 +8,8 @@ The record of brain-even game is [here](https://asciinema.org/connect/438c8e45-9
 
 The record of brain-calc game is [here](https://asciinema.org/a/nPhgVxugKNSp5NxvLOSb9CQpk)
 
-The record of rain-gcd game is [here](https://asciinema.org/a/yF14AvE7hCYLsTxoEnnV7EO2Z)
+The record of brain-gcd game is [here](https://asciinema.org/a/yF14AvE7hCYLsTxoEnnV7EO2Z)
+
+The record of brain-progression game is [here](https://asciinema.org/a/441TtxaLbleMknPkbuoEkAqle)
+
+The record of brain-prime game is [here](https://asciinema.org/a/ODtKMX3lqrQ6ifB2CRDGWO4JC)
