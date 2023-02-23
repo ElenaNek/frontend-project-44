@@ -26,16 +26,34 @@ npm link
 ### Игра 1: "Проверка на чётность"
 
 Команда `brain-even` в терминале запускает игру.
-Пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
+Пользователю показывается случайное число. И ему нужно ответить *yes*, если число чётное, или *no* — если нечётное.
 
 [![asciicast](https://asciinema.org/a/URQzDgQpJoWwSzTBxsNFwSt6m.svg)](https://asciinema.org/a/URQzDgQpJoWwSzTBxsNFwSt6m)
 
-The record of brain-even game is [here](https://asciinema.org/connect/438c8e45-9533-429d-8a89-532b34d5cf16)
+### Игра 2: "Калькулятор"
 
-The record of brain-calc game is [here](https://asciinema.org/a/nPhgVxugKNSp5NxvLOSb9CQpk)
+Команда `brain-calc` запускает игру.
+Пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
 
-The record of brain-gcd game is [here](https://asciinema.org/a/yF14AvE7hCYLsTxoEnnV7EO2Z)
+[![asciicast](https://asciinema.org/a/nPhgVxugKNSp5NxvLOSb9CQpk.svg)](https://asciinema.org/a/nPhgVxugKNSp5NxvLOSb9CQpk)
 
-The record of brain-progression game is [here](https://asciinema.org/a/441TtxaLbleMknPkbuoEkAqle)
+### Игра 3: "Наибольший общий делитель (НОД)"
 
-The record of brain-prime game is [here](https://asciinema.org/a/ODtKMX3lqrQ6ifB2CRDGWO4JC)
+Команда `brain-gcd` запускает игру.
+Пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+
+[![asciicast](https://asciinema.org/a/yF14AvE7hCYLsTxoEnnV7EO2Z.svg)](https://asciinema.org/a/yF14AvE7hCYLsTxoEnnV7EO2Z)
+
+### Игра 4: "Арифметическая прогрессия"
+
+Команда `brain-progression` запускает игру.
+Показывается ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Пользователь должен определить это число.
+
+[![asciicast](https://asciinema.org/a/441TtxaLbleMknPkbuoEkAqle.svg)](https://asciinema.org/a/441TtxaLbleMknPkbuoEkAqle)
+
+### Игра 5: "Простое ли число?"
+
+Команда `brain-prime` запускает игру.
+Пользователю показывается случайное число. И ему нужно ответить *yes*, если число простое, или *no* — если нет.
+
+[![asciicast](https://asciinema.org/a/ODtKMX3lqrQ6ifB2CRDGWO4JC.svg)](https://asciinema.org/a/ODtKMX3lqrQ6ifB2CRDGWO4JC)
