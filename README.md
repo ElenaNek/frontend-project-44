@@ -11,16 +11,24 @@
 
 **Установка:**
 
+```node
 git clone git@github.com:ElenaNek/frontend-project-44.git
+
 npm i
+
 npm link
+```
 
 ## Описание проекта
 
 **"Игры разума"** - это проект, в котором реализовано 5 консольных игр. Пользователю  необходимо сообщить свое имя и ответить на вопрос правильно 3 раза. В случае, если пользователь даст неверный ответ, игра завершается и будет предложено попробовать еще раз.
 
-1. Игра: "Проверка на чётность"
-Команда brain-even в терминале запускает игру.
+### Игра 1: "Проверка на чётность"
+
+Команда `brain-even` в терминале запускает игру.
+Пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
+[![asciicast](https://asciinema.org/connect/438c8e45-9533-429d-8a89-532b34d5cf16.svg)](https://asciinema.org/connect/438c8e45-9533-429d-8a89-532b34d5cf16)
+
 The record of brain-even game is [here](https://asciinema.org/connect/438c8e45-9533-429d-8a89-532b34d5cf16)
 
 The record of brain-calc game is [here](https://asciinema.org/a/nPhgVxugKNSp5NxvLOSb9CQpk)
