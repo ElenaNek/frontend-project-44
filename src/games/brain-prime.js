@@ -20,15 +20,14 @@ const isPrime = (num) => {
   return true;
 };
 
-const dataIsPrimeGame = () => {
+const getDataIsPrimeGame = () => {
   const randomNum = getRandomNumber(minNumber, maxNumber);
-  const question = `${randomNum}`;
   const correctAnswer = isPrime(randomNum) ? 'yes' : 'no';
-  return [question, correctAnswer];
+  return [randomNum, correctAnswer];
 };
 
 const playPrimeGame = () => {
-  playGame(rule, dataIsPrimeGame);
+  playGame(rule, getDataIsPrimeGame);
 };
 
 export default playPrimeGame;

@@ -2,7 +2,7 @@ import getRandomNumber from '../getRandomNumber.js';
 import playGame from '../index.js';
 
 const operators = ['+', '-', '*'];
-const getRandomOperator = () => operators[getRandomNumber(0, operators.length - 1)];
+const getRandomOperator = (operatorsAr) => operatorsAr[getRandomNumber(0, operatorsAr.length - 1)];
 
 const minNumber = 1;
 const maxNumber = 30;
@@ -21,17 +21,17 @@ const calc = (randomNum, randomOperator, randomNum2) => {
   }
 };
 
-const dataCalcGame = () => {
+const getDataCalcGame = () => {
   const randomNum = getRandomNumber(minNumber, maxNumber);
   const randomNum2 = getRandomNumber(minNumber, maxNumber);
-  const randomOperator = getRandomOperator();
+  const randomOperator = getRandomOperator(operators);
   const question = `${randomNum} ${randomOperator} ${randomNum2}`;
   const correctAnswer = calc(randomNum, randomOperator, randomNum2);
-  return [question, correctAnswer];
+  return [question, correctAnswer.toString()];
 };
 
 const playCalcGame = () => {
-  playGame(rule, dataCalcGame);
+  playGame(rule, getDataCalcGame);
 };
 
 export default playCalcGame;
