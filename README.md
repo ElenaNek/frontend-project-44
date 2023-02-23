@@ -27,7 +27,8 @@ npm link
 
 Команда `brain-even` в терминале запускает игру.
 Пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
-[![asciicast](https://asciinema.org/connect/438c8e45-9533-429d-8a89-532b34d5cf16.svg)](https://asciinema.org/connect/438c8e45-9533-429d-8a89-532b34d5cf16)
+
+[![asciicast](https://asciinema.org/a/URQzDgQpJoWwSzTBxsNFwSt6m.svg)](https://asciinema.org/a/URQzDgQpJoWwSzTBxsNFwSt6m)
 
 The record of brain-even game is [here](https://asciinema.org/connect/438c8e45-9533-429d-8a89-532b34d5cf16)
 
